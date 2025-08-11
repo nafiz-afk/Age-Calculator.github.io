@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="theme-toggle" id="themeToggle">
+            <div class="toggle-circle"></div>
+        </div>
+        <div class="base">
+            <h4>Age Calculator</h4>
+        </div>
+        <div class="block">
+            <p class="title">Date</p>
+            <input type="text" name="date" id="date" placeholder="dd" required minlength="1" maxlength="2">
+        </div>
+        <div class="block">
+            <p class="title">Month</p>
+            <input type="text" name="MonthYear" id="MonthYear" placeholder="mm" required minlength="1" maxlength="2">
+        </div>
+        <div class="block">
+            <p class="title">Year</p>
+            <input type="text" name="Year" id="Year" placeholder="yyyy" required minlength="4" maxlength="4">
+        </div>
+        <div class="submit-button">
+            <input type="button" name="submit" value="Submit" onclick="age()">
+        </div>
+        <div id="age"></div>
+        <p class="copyright"><strong>MD. Nafiz Abdullah</strong> | © 2025</p>
+    </div>
+</body>
+
+</html>
